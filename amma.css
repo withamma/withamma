@@ -110,14 +110,14 @@ header .row .welcome .logo {
 
 header .links {
     position: absolute;
-    bottom: 40px;
+    bottom: 70px;
     width: 100%;
     text-align: center;
 }
 
 header .links a {
     font-weight: 700;
-    color: #737373;
+    color: #140366;
     font-size: 1.2em;
     text-decoration: none;
     padding: 0 20px;
@@ -127,3 +127,25 @@ header .links a:hover {
     color: #39b14b;
 }
 
+header .external-links {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+header .external-links a {
+    font-weight: 700;
+    color: #737373;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+header .external-links a:hover {
+    color: #39b14b;
+}
+
+.hidden {
+	display: none;
+}
